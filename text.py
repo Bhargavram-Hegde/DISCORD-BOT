@@ -25,13 +25,13 @@ async def on_ready():
 @client.event
 async def on_member_join(member):
     await member.send(f"Hello, {member.mention}! Great to have you here!")
-    await client.get_channel(848570120611168329).send(f"Hello {member.mention} welcome to our channel , Let's have fun time !")
+    await client.get_channel(-----).send(f"Hello {member.mention} welcome to our channel , Let's have fun time !")
     print(f'{member}has joined') #it dispalys the message on powershell
 
 
 @client.event
 async def on_member_remove(member):
-    await client.get_channel(848570120611168329).send(f"I hope {member.mention} had fun!")
+    await client.get_channel(------).send(f"I hope {member.mention} had fun!")
     print(f'{member}has left the server') #it displays the meaage on powershell
 
 
@@ -134,7 +134,7 @@ async def change_status():
 
 # async def message():
 #     # Creates a loop that sends messages to a particular channel on 2 second intervals
-#     await client.get_channel(848570120611168326).send("Hello")
+#     await client.get_channel(----).send("Hello")
 
 ############################################
 
@@ -290,4 +290,4 @@ async def temban(ctx, member: commands.MemberConverter, duration : DurationConve
 
 #Need to add embeds
 
-client.run("ODQ4NTM1NjQ3MTk5MDM1Mzkz.YLOCZw.I24q2CECSuw4tJevJNhqWRocnl8")
+client.run("token")

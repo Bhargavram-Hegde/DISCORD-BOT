@@ -1,8 +1,6 @@
 # DISCORD-BOT
 creating Discord BOT using python
 
-#demo
-see the working on my lap
 
 #local development
 
